@@ -20,4 +20,4 @@ You do NOT have to do the entire thing! make it exist first, make it good later!
 Also, to address the fact that this is all free labor, yes, but...
 
 1. You are building upon other's work they have willingly given out
-2. Nothing's stopping other users from paying you to produce more. Sure the end result will be free to use, but you deserve to be peid for anything that isn't done for your leisure.
+2. Nothing's stopping other users from paying you to produce more. Sure the end result will be free to use, but you deserve to be paid for anything that isn't done for your leisure.
