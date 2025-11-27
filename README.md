@@ -7,6 +7,8 @@ HOW TO CONTRIBUTE:
 2. Wait for me to make a character folder and file for it
 3. Make a branch to change some stuff then send a pull request for review, or send me an email at projectaltairrm@gmail.com
 
+Before you do any of the following, let me be abundantly clear: Being the original creator, or the first to do a certain thing with a character, doesn't make you the arbiter of what should or shouldn't be done with them. That said, anything that is more than just adding to what's there will have to be decided via poll in Discussions.
+
 ANY CONTRIBUTION MATTERS!!!
 
 - Have an idea for an OC but no drawing skills? Scribble something!
@@ -21,3 +23,6 @@ Also, to address the fact that this is all free labor, yes, but...
 
 1. You are building upon other's work they have willingly given out
 2. Nothing's stopping other users from paying you to produce more. Sure the end result will be free to use, but you deserve to be paid for anything that isn't done for your leisure.
+
+
+p.S. The repo itself is also cc0, if you want to build a better website or app to contain it, feel free!
