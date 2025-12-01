@@ -6,10 +6,11 @@ HOW TO CONTRIBUTE:
 1. Fill the form at https://redmage4evah.github.io/ProjectAltair/submit.html
 2. Wait for me to make a character folder and file for it
 3. Make a branch to change some stuff then send a pull request for review, or send me an email at projectaltairrm@gmail.com
+Alternatively, use the other forms on the above link to submit extra works or write stuff.
 
-Before you do any of the following, let me be abundantly clear: Being the original creator, or the first to do a certain thing with a character, doesn't make you the arbiter of what should or shouldn't be done with them. That said, anything that is more than just adding to what's there will have to be decided via poll in Discussions.
+Before you do any of the above, let me be abundantly clear: Being the original creator, or the first to do a certain thing with a character, doesn't make you the arbiter of what should or shouldn't be done with them. That said, anything that is more than just adding to what's there will have to be decided via poll in Discussions.
 
-ANY CONTRIBUTION MATTERS!!!
+ANY CONTRIBUTION MATTERS!!! NO AI ALLOWED!
 
 - Have an idea for an OC but no drawing skills? Scribble something!
 - Feel inspired to draw an OC whose profile you like, but struggle with hair/ hands/ clothing/ etc? That's fine! send it!
