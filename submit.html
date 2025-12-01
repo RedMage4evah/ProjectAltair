@@ -3,53 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Submit a Character — Project Altair</title>
+  <title>Contribute — Project Altair</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a href="index.html">← Home</a>
 
   <main>
-    <h1>Release Your Character Into the Wild</h1>
-    <p>Fill this out, hit submit, and I'll add it within 24 hours as CC0 public domain.</p>
+    <h1>Contribute!</h1>
+    <p>Pick a form, fill it out, and I'll add it to the repo within 24 hours!</p>
+    
+    <select id="form-selector">
+  <option value="_" selected disabled>pick one !</option>
+  <option value="addcharacter">Add a character</option>
+  <option value="submitmedia">Add media to an existing character</option>
+  <option value="writestory">Write a story using existing characters</option>
+    </select>
+    
+    <div id="my-forms">
+      <form name="addcharacter" action="https://formsubmit.co/502c82171515081ee2ad7b7f201ec7e2" method="POST" enctype="multipart/form-data">
+        <label>Character Name *</label>
+        <input type="text" name="Character Name" placeholder="e.g., Lyra Voidborn" required >
 
-    <form action="https://formsubmit.co/502c82171515081ee2ad7b7f201ec7e2" method="POST" enctype="multipart/form-data">
-      <label>Character Name *</label>
-      <input type="text" name="Character Name" placeholder="e.g., Lyra Voidborn" required >
+        <label>Backstory / Lore *</label>
+        <textarea name="Backstory / Lore" placeholder="e.g., Born from a dying star, Lyra wanders the cosmos seeking lost souls..." rows="6" required ></textarea>
 
-      <label>Backstory / Lore *</label>
-      <textarea name="Backstory / Lore" placeholder="e.g., Born from a dying star, Lyra wanders the cosmos seeking lost souls..." rows="6" required ></textarea>
+        <label>Personality Traits</label>
+        <textarea name="Personality Traits" placeholder="e.g., Curious, melancholic, fiercely loyal" rows="3"></textarea>
 
-      <label>Personality Traits</label>
-      <textarea name="Personality Traits" placeholder="e.g., Curious, melancholic, fiercely loyal" rows="3"></textarea>
+        <label>Abilities / Powers</label>
+        <textarea name="Abilities / Powers" placeholder="e.g., Star manipulation, immortality through rebirth" rows="3" ></textarea>
 
-      <label>Abilities / Powers</label>
-      <textarea name="Abilities / Powers" placeholder="e.g., Star manipulation, immortality through rebirth" rows="3" ></textarea>
+        <label>Appearance Description</label>
+        <textarea name="Appearance Description" placeholder="e.g., Ethereal glow, long silver hair, cosmic tattoos" rows="3"></textarea>
 
-      <label>Appearance Description</label>
-      <textarea name="Appearance Description" placeholder="e.g., Ethereal glow, long silver hair, cosmic tattoos" rows="3"></textarea>
+        <label>Relationships / Connections</label>
+        <textarea name="Relationships / Connections" placeholder="e.g., Rival: The Black Hole Emperor; Ally: Nova the Scout" rows="3"></textarea>
 
-      <label>Relationships / Connections</label>
-      <textarea name="Relationships / Connections" placeholder="e.g., Rival: The Black Hole Emperor; Ally: Nova the Scout" rows="3"></textarea>
+        <label>Your Name / Nickname (for credit)</label>
+        <input type="text" name="Creator Name" placeholder="e.g., @RedMage4evah">
 
-      <label>Your Name / Nickname (for credit)</label>
-      <input type="text" name="Creator Name" placeholder="e.g., @RedMage4evah">
+        <label>Portrait Image * (upload one main image)</label>
+        <input type="file" name="Portrait Image" accept="image/*" required>
 
-      <label>Portrait Image * (upload one main image)</label>
-      <input type="file" name="Portrait Image" accept="image/*" required>
+        <label>Extra Image (optional) </label>
+        <input type="file" name="Extra Image" accept="image/*">
 
-      <label>Extra Image (optional) </label>
-      <input type="file" name="Extra Image" accept="image/*">
+        <label>
+          <input type="checkbox" name="CC0 Confirmation" required>
+          <span style="color:#e0e0e0; text-align: right">I confirm this is 100% my original work and I release it as CC0 public domain forever (no take-backs).</span>
+        </label>
 
-      <label>
-        <input type="checkbox" name="CC0 Confirmation" required>
-        <span style="color:#e0e0e0; text-align: right">I confirm this is 100% my original work and I release it as CC0 public domain forever (no take-backs).</span>
-      </label>
+        <input type="hidden" name="_subject" value="Character Submission for Project Altair">
 
-      <input type="hidden" name="_subject" value="Character Submission for Project Altair">
+        <button type="submit" methood="POST" style="background:#ff3366;color:white;padding:1.5rem;font-size:1.5rem;border:none;border-radius:12px;width:100%;cursor:pointer;">Submit</button>
+      </form>
+      
+      <form name="submitmedia" action="https://formsubmit.co/502c82171515081ee2ad7b7f201ec7e2" method="POST" enctype="multipart/form-data">
+        <label>Character Name *</label>
+        <input type="text" name="Character Name" placeholder="e.g., Lyra Voidborn" required >
 
-      <button type="submit" methood="POST" style="background:#ff3366;color:white;padding:1.5rem;font-size:1.5rem;border:none;border-radius:12px;width:100%;cursor:pointer;">Submit</button>
-    </form>
+        <label>Your Name / Nickname (for credit)</label>
+        <input type="text" name="Creator Name" placeholder="e.g., @RedMage4evah">
+
+        <label>Media (image/video/audio)</label>
+        <input type="file" name="media" accept="audio/*, video/*, image/*" required>
+
+        <label>
+          <input type="checkbox" name="CC0 Confirmation" required>
+          <span style="color:#e0e0e0; text-align: right">I confirm this is 100% my original work and I release it as CC0 public domain forever (no take-backs).</span>
+        </label>
+
+        <input type="hidden" name="_subject" value="Media Submission for Project Altair">
+
+        <button type="submit" methood="POST" style="background:#ff3366;color:white;padding:1.5rem;font-size:1.5rem;border:none;border-radius:12px;width:100%;cursor:pointer;">Submit</button>
+      </form>
+      
+      <form name="writestory" action="https://formsubmit.co/502c82171515081ee2ad7b7f201ec7e2" method="POST" enctype="multipart/form-data">
+        <label>Character Name *</label>
+        <input type="text" name="Character Name" placeholder="e.g., Lyra Voidborn" required >
+
+        <label>Text *</label>
+        <textarea name="text" rows="6" required ></textarea>
+        
+        <label>Your Name / Nickname (for credit)</label>
+        <input type="text" name="Creator Name" placeholder="e.g., @RedMage4evah">
+
+        <label>
+          <input type="checkbox" name="CC0 Confirmation" required>
+          <span style="color:#e0e0e0; text-align: right">I confirm this is 100% my original work and I release it as CC0 public domain forever (no take-backs).</span>
+        </label>
+
+        <input type="hidden" name="_subject" value="text Submission for Project Altair">
+
+        <button type="submit" methood="POST" style="background:#ff3366;color:white;padding:1.5rem;font-size:1.5rem;border:none;border-radius:12px;width:100%;cursor:pointer;">Submit</button>
+      </form>
+      
+    </div>
   </main>
+  
+  <script src="formselect.js"></script>
 </body>
 </html>

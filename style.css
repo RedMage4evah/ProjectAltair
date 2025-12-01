@@ -132,3 +132,13 @@ button{
     cursor:pointer;
 }
 
+/*
+Source - https://stackoverflow.com/a
+Posted by Mister Jojo
+Retrieved 2025-11-30, License - CC BY-SA 4.0
+*/
+
+#my-forms form { display:none }
+#my-forms.f-addcharacter form[name=addcharacter],
+#my-forms.f-submitmedia form[name=submitmedia],
+#my-forms.f-writestory form[name=writestory] { display:block }
