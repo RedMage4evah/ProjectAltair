@@ -16,8 +16,9 @@
     <select id="form-selector">
   <option value="_" selected disabled>pick one !</option>
   <option value="addcharacter">Add a character</option>
-  <option value="submitmedia">Add media to an existing character</option>
+  <option value="submitmedia">Add media to an existing character/ bounty</option>
   <option value="writestory">Write a story using existing characters</option>
+  <option value="placebounty">Place a bounty on an idea you have</option>
     </select>
     
     <div id="my-forms">
@@ -60,7 +61,7 @@
       </form>
       
       <form name="submitmedia" action="https://formsubmit.co/502c82171515081ee2ad7b7f201ec7e2" method="POST" enctype="multipart/form-data">
-        <label>Character Name *</label>
+        <label>Character Name/ Bounty codename *</label>
         <input type="text" name="Character Name" placeholder="e.g., Lyra Voidborn" required >
 
         <label>Your Name / Nickname (for credit)</label>
@@ -88,6 +89,29 @@
         
         <label>Your Name / Nickname (for credit)</label>
         <input type="text" name="Creator Name" placeholder="e.g., @RedMage4evah">
+
+        <label>
+          <input type="checkbox" name="CC0 Confirmation" required>
+          <span style="color:#e0e0e0; text-align: right">I confirm this is 100% my original work and I release it as CC0 public domain forever (no take-backs).</span>
+        </label>
+
+        <input type="hidden" name="_subject" value="text Submission for Project Altair">
+
+        <button type="submit" methood="POST" style="background:#ff3366;color:white;padding:1.5rem;font-size:1.5rem;border:none;border-radius:12px;width:100%;cursor:pointer;">Submit</button>
+      </form>
+      
+      <form name="placebounty" action="https://formsubmit.co/502c82171515081ee2ad7b7f201ec7e2" method="POST" enctype="multipart/form-data">
+        <label>Bounty Codename *</label>
+        <input type="text" name="Character Name" placeholder="Something to name the folder that will contain submissions for it" required >
+
+        <label>Details *</label>
+        <textarea name="text" rows="6" required ></textarea>
+        
+        <label>Your Name / Nickname (for credit)</label>
+        <input type="text" name="Creator Name" placeholder="e.g., @RedMage4evah">
+        
+        <label>Email for contact and updates on your bounty (this will not be displayed on the bounty itself)</label>
+        <input type="text" name="Creator contact">
 
         <label>
           <input type="checkbox" name="CC0 Confirmation" required>
