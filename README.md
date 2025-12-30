@@ -28,3 +28,7 @@ Also, to address the fact that this is all free labor, yes, but...
 
 
 P.S. The repo itself is also cc0, if you want to build a better website or app to contain it, feel free to hit me up about it! projectaltairrm@gmail.com
+
+REPO MAP
+
+![Visualization of this repo](./diagram.svg)
